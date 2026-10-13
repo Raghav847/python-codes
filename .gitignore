@@ -1,0 +1,54 @@
+# Python bytecode and caches (all subdirectories)
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+.tox/
+.nox/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python build and packaging artifacts
+build/
+dist/
+wheels/
+*.egg-info/
+.eggs/
+*.egg
+
+# Test coverage reports
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+
+# Local environment settings; keep example templates
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+
+# Editor settings and temporary files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# macOS metadata
+.DS_Store
+._*
+
+# Runtime logs and Scrapy cache
+*.log
+.scrapy/
+
+# Generated crawler export
+/py_scraper/mycrawler/output.json
